@@ -1,0 +1,739 @@
+{
+    "_id" : ObjectId("67792018b3425d056d072f8a"),
+    "code" : "xyz",
+    "tags" : [
+        "school",
+        "book",
+        "bag",
+        "headphone",
+        "appliance"
+    ],
+    "qty" : [
+        {
+            "size" : "S",
+            "num" : NumberInt(10),
+            "color" : "blue"
+        },
+        {
+            "size" : "M",
+            "num" : NumberInt(45),
+            "color" : "blue"
+        },
+        {
+            "size" : "L",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f8b"),
+    "code" : "abc",
+    "tags" : [
+        "appliance",
+        "school",
+        "book"
+    ],
+    "qty" : [
+        {
+            "size" : "6",
+            "num" : NumberInt(100),
+            "color" : "green"
+        },
+        {
+            "size" : "6",
+            "num" : NumberInt(50),
+            "color" : "blue"
+        },
+        {
+            "size" : "8",
+            "num" : NumberInt(100),
+            "color" : "brown"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(111),
+    "type" : "Phone",
+    "tags" : [
+        "Headphones",
+        "Company",
+        "Technology"
+    ],
+    "qty" : [
+        {
+            "brand" : "Samsung",
+            "num" : NumberInt(10),
+            "color" : "black"
+        },
+        {
+            "brand" : "iphone",
+            "num" : NumberInt(5),
+            "color" : "grey"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(3),
+    "item" : "XYZ123",
+    "stock" : NumberInt(15),
+    "info" : {
+        "publisher" : "5555",
+        "pages" : NumberInt(150)
+    },
+    "tags" : [
+
+    ],
+    "ratings" : [
+        {
+            "by" : "xyz",
+            "rating" : NumberInt(5)
+        }
+    ],
+    "reorder" : false
+}
+{
+    "_id" : NumberInt(4),
+    "address" : "2030 Martian Way",
+    "zipCode" : "90698345"
+}
+{
+    "_id" : NumberInt(5),
+    "address" : "156 Lunar Place",
+    "zipCode" : NumberInt(43339374)
+}
+{
+    "_id" : NumberInt(6),
+    "address" : "2324 Pluto Place",
+    "zipCode" : "3921412"
+}
+{
+    "_id" : NumberInt(7),
+    "address" : "55 Saturn Ring",
+    "zipCode" : "88602117"
+}
+{
+    "_id" : NumberInt(8),
+    "address" : "104 Venus Drive",
+    "zipCode" : [
+        "834847278",
+        "1893289032"
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f8c"),
+    "code" : "efg",
+    "tags" : [
+        "school",
+        "book"
+    ],
+    "qty" : [
+        {
+            "size" : "S",
+            "num" : NumberInt(10),
+            "color" : "blue"
+        },
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "blue"
+        },
+        {
+            "size" : "L",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f8d"),
+    "code" : "ijk",
+    "tags" : [
+        "electronics",
+        "school"
+    ],
+    "qty" : [
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f8e"),
+    "code" : "ijk",
+    "tags" : [
+        "ssl",
+        "school"
+    ],
+    "qty" : [
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f8f"),
+    "code" : "ijk",
+    "tags" : [
+        "security",
+        "school"
+    ],
+    "qty" : [
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f90"),
+    "code" : "ijk",
+    "tags" : [
+        "ssl",
+        "security"
+    ],
+    "qty" : [
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(9),
+    "item" : {
+        "name" : "ab",
+        "code" : "123"
+    },
+    "qty" : NumberInt(15),
+    "tags" : [
+        "A",
+        "B",
+        "C"
+    ]
+}
+{
+    "_id" : NumberInt(10),
+    "item" : {
+        "name" : "cd",
+        "code" : "123"
+    },
+    "qty" : NumberInt(20),
+    "tags" : [
+        "B"
+    ]
+}
+{
+    "_id" : NumberInt(11),
+    "item" : {
+        "name" : "ij",
+        "code" : "456"
+    },
+    "qty" : NumberInt(25),
+    "tags" : [
+        "A",
+        "B"
+    ]
+}
+{
+    "_id" : NumberInt(12),
+    "item" : {
+        "name" : "xy",
+        "code" : "456"
+    },
+    "qty" : NumberInt(30),
+    "tags" : [
+        "B",
+        "A"
+    ]
+}
+{
+    "_id" : NumberInt(13),
+    "item" : {
+        "name" : "mn",
+        "code" : "000"
+    },
+    "qty" : NumberInt(20),
+    "tags" : [
+        [
+            "A",
+            "B"
+        ],
+        "C"
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f91"),
+    "item" : "nuts",
+    "quantity" : NumberInt(30),
+    "carrier" : {
+        "name" : "Shipit",
+        "fee" : NumberInt(3)
+    }
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f92"),
+    "item" : "bolts",
+    "quantity" : NumberInt(50),
+    "carrier" : {
+        "name" : "Shipit",
+        "fee" : NumberInt(4)
+    }
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f93"),
+    "item" : "washers",
+    "quantity" : NumberInt(10),
+    "carrier" : {
+        "name" : "Shipit",
+        "fee" : NumberInt(1)
+    }
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f94"),
+    "item" : "canvas",
+    "qty" : NumberInt(100),
+    "size" : {
+        "h" : NumberInt(28),
+        "w" : 35.5,
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f95"),
+    "item" : "journal",
+    "qty" : NumberInt(25),
+    "size" : {
+        "h" : NumberInt(14),
+        "w" : NumberInt(21),
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f96"),
+    "item" : "mat",
+    "qty" : NumberInt(85),
+    "size" : {
+        "h" : 27.9,
+        "w" : 35.5,
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f97"),
+    "item" : "mousepad",
+    "qty" : NumberInt(25),
+    "size" : {
+        "h" : NumberInt(19),
+        "w" : 22.85,
+        "uom" : "cm"
+    },
+    "status" : "P"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f98"),
+    "item" : "notebook",
+    "qty" : NumberInt(50),
+    "size" : {
+        "h" : 8.5,
+        "w" : NumberInt(11),
+        "uom" : "in"
+    },
+    "status" : "P"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f99"),
+    "item" : "paper",
+    "qty" : NumberInt(100),
+    "size" : {
+        "h" : 8.5,
+        "w" : NumberInt(11),
+        "uom" : "meter"
+    },
+    "status" : "D",
+    "lastUpdated" : ISODate("2025-01-04T12:51:44.294+0000")
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9a"),
+    "item" : "planner",
+    "qty" : NumberInt(75),
+    "size" : {
+        "h" : 22.85,
+        "w" : NumberInt(30),
+        "uom" : "cm"
+    },
+    "status" : "D"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9b"),
+    "item" : "postcard",
+    "qty" : NumberInt(45),
+    "size" : {
+        "h" : NumberInt(10),
+        "w" : 15.25,
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9c"),
+    "item" : "sketchbook",
+    "qty" : NumberInt(80),
+    "size" : {
+        "h" : NumberInt(14),
+        "w" : NumberInt(21),
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9d"),
+    "item" : "sketch pad",
+    "qty" : NumberInt(95),
+    "size" : {
+        "h" : 22.85,
+        "w" : 30.5,
+        "uom" : "cm"
+    },
+    "status" : "A"
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9e"),
+    "item" : "journal",
+    "qty" : NumberInt(25),
+    "tags" : [
+        "blank",
+        "red"
+    ],
+    "dim_cm" : [
+        NumberInt(14),
+        NumberInt(21)
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072f9f"),
+    "item" : "notebook",
+    "qty" : NumberInt(50),
+    "tags" : [
+        "red",
+        "blank"
+    ],
+    "dim_cm" : [
+        NumberInt(14),
+        NumberInt(21)
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa0"),
+    "item" : "paper",
+    "qty" : NumberInt(100),
+    "tags" : [
+        "red",
+        "blank",
+        "plain"
+    ],
+    "dim_cm" : [
+        NumberInt(14),
+        NumberInt(21)
+    ],
+    "lastUpdated" : ISODate("2025-01-04T12:51:44.294+0000"),
+    "size" : {
+        "uom" : "meter"
+    }
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa1"),
+    "item" : "planner",
+    "qty" : NumberInt(75),
+    "tags" : [
+        "blank",
+        "red"
+    ],
+    "dim_cm" : [
+        22.85,
+        NumberInt(30)
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa2"),
+    "item" : "postcard",
+    "qty" : NumberInt(45),
+    "tags" : [
+        "blue"
+    ],
+    "dim_cm" : [
+        NumberInt(10),
+        15.25
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa3"),
+    "code" : "xyz",
+    "tags" : [
+        "school",
+        "book",
+        "bag",
+        "headphone",
+        "appliance"
+    ],
+    "qty" : [
+        {
+            "size" : "S",
+            "num" : NumberInt(10),
+            "color" : "blue"
+        },
+        {
+            "size" : "M",
+            "num" : NumberInt(45),
+            "color" : "blue"
+        },
+        {
+            "size" : "L",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa4"),
+    "code" : "abc",
+    "tags" : [
+        "appliance",
+        "school",
+        "book"
+    ],
+    "qty" : [
+        {
+            "size" : "6",
+            "num" : NumberInt(100),
+            "color" : "green"
+        },
+        {
+            "size" : "6",
+            "num" : NumberInt(50),
+            "color" : "blue"
+        },
+        {
+            "size" : "8",
+            "num" : NumberInt(100),
+            "color" : "brown"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa5"),
+    "code" : "efg",
+    "tags" : [
+        "school",
+        "book"
+    ],
+    "qty" : [
+        {
+            "size" : "S",
+            "num" : NumberInt(10),
+            "color" : "blue"
+        },
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "blue"
+        },
+        {
+            "size" : "L",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa6"),
+    "code" : "ijk",
+    "tags" : [
+        "electronics",
+        "school"
+    ],
+    "qty" : [
+        {
+            "size" : "M",
+            "num" : NumberInt(100),
+            "color" : "green"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(14),
+    "status" : "a"
+}
+{
+    "_id" : NumberInt(15),
+    "sku" : "abc123",
+    "quantity" : NumberInt(10),
+    "metrics" : {
+        "orders" : NumberInt(2),
+        "ratings" : 3.5
+    }
+}
+{
+    "_id" : NumberInt(16),
+    "highScore" : NumberInt(800),
+    "lowScore" : NumberInt(200)
+}
+{
+    "_id" : NumberInt(17),
+    "highScore" : NumberInt(800),
+    "lowScore" : NumberInt(200)
+}
+{
+    "_id" : NumberInt(18),
+    "item" : "Scarf",
+    "price" : NumberInt(10)
+}
+{
+    "_id" : NumberInt(19),
+    "alias" : [
+        "The American Cincinnatus",
+        "The American Fabius"
+    ],
+    "mobile" : "555-555-5555",
+    "nmae" : {
+        "first" : "george",
+        "last" : "washington"
+    }
+}
+{
+    "_id" : NumberInt(20),
+    "alias" : [
+        "My dearest friend"
+    ],
+    "mobile" : "222-222-2222",
+    "nmae" : {
+        "first" : "abigail",
+        "last" : "adams"
+    }
+}
+{
+    "_id" : NumberInt(21),
+    "alias" : [
+        "Amazing grace"
+    ],
+    "mobile" : "111-111-1111",
+    "nmae" : {
+        "first" : "grace",
+        "last" : "hopper"
+    }
+}
+{
+    "_id" : NumberInt(22),
+    "quantity" : NumberInt(250),
+    "instock" : true,
+    "reorder" : false,
+    "details" : {
+        "model" : "14QQ",
+        "make" : "Clothes Corp"
+    },
+    "tags" : [
+        "apparel",
+        "clothing"
+    ],
+    "ratings" : [
+        {
+            "by" : "Customer007",
+            "rating" : NumberInt(4)
+        }
+    ]
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa7"),
+    "item" : "chisel",
+    "sku" : "C001",
+    "quantity" : NumberInt(4),
+    "instock" : true
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa8"),
+    "item" : "hammer",
+    "sku" : "unknown",
+    "quantity" : NumberInt(3),
+    "instock" : true
+}
+{
+    "_id" : ObjectId("67792018b3425d056d072fa9"),
+    "item" : "nails",
+    "sku" : "unknown",
+    "quantity" : NumberInt(100),
+    "instock" : true
+}
+{
+    "_id" : NumberInt(23),
+    "name" : "Alice King",
+    "classAverage" : 87.33333333333333
+}
+{
+    "_id" : NumberInt(24),
+    "name" : "Bob Jenkins",
+    "classAverage" : "83.52"
+}
+{
+    "_id" : NumberInt(25),
+    "name" : "Cathy Hart",
+    "classAverage" : "94.06"
+}
+{
+    "_id" : NumberInt(26),
+    "name" : "Drew Williams",
+    "classAverage" : NumberInt(93)
+}
+{
+    "_id" : NumberInt(27),
+    "address" : "2030 Martian Way",
+    "zipCode" : "90698345"
+}
+{
+    "_id" : NumberInt(28),
+    "address" : "156 Lunar Place",
+    "zipCode" : "43339374"
+}
+{
+    "_id" : NumberInt(29),
+    "address" : "2324 Pluto Place",
+    "zipCode" : "3921412"
+}
+{
+    "_id" : NumberInt(30),
+    "address" : "55 Saturn Ring",
+    "zipCode" : "88602117"
+}
+{
+    "_id" : NumberInt(31),
+    "address" : "104 Venus Drive",
+    "zipCode" : [
+        "834847278",
+        "1893289032"
+    ]
+}
+{
+    "_id" : ObjectId("67792c3c6967e37ef1958339"),
+    "quantity" : NumberInt(100),
+    "item" : "HP printer",
+    "lastUpdated" : ISODate("2025-01-04T12:40:28.857+0000")
+}
+{
+    "_id" : ObjectId("67792ee06967e37ef195833a"),
+    "quantity" : NumberInt(100),
+    "item" : "HP printer",
+    "lastUpdated" : ISODate("2025-01-04T12:51:44.358+0000")
+}
+{
+    "_id" : NumberInt(1),
+    "name" : "medhat",
+    "wealth" : NumberInt(10000000)
+}
